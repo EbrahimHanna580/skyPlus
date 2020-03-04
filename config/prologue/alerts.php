@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 return [
@@ -37,3 +38,44 @@ return [
     'session_key' => 'alert_messages',
 
 ];
+=======
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Alert Levels
+    |--------------------------------------------------------------------------
+    |
+    | The default sort of alert levels which can be called as functions on the
+    | AlertsMessageBag class. This gives a convenient way to add certain type's
+    | of messages.
+    |
+    | For example:
+    |
+    |     Alerts::info($message);
+    |
+    */
+
+    'levels' => [
+        'info',
+        'warning',
+        'error',
+        'success',
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Session Key
+    |--------------------------------------------------------------------------
+    |
+    | The session key which is used to store flashed messages into the current
+    | session. This can be changed if it conflicts with another key.
+    |
+    */
+
+    'session_key' => 'alert_messages',
+
+];
+>>>>>>> 32a2d418a7784cdb7de25bd745cdd349b21309b6
